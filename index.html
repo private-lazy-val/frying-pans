@@ -93,7 +93,7 @@
             <h1 class="lead__heading">
               Your new<br /><span class="lead__span">skillet</span>
             </h1>
-            <a href="#" class="lead__button">Shop the always pan</a>
+            <a href="#" class="lead__btn">Shop the always pan</a>
           </div>
         </section>
         <!-- Credentials -->
@@ -102,7 +102,7 @@
             <h2 class="credentials__quote">
               "Doing the job of eight traditional cookware pieces"
             </h2>
-            <div class="credentials__logos">
+            <div class="credentials__logos flex-space-between">
               <img
                 class="credentials__logo"
                 src="./img/logos/bon-appetit.svg"
@@ -137,7 +137,7 @@
         <!-- Intro -->
         <section class="intro">
           <div class="container">
-            <article class="intro__content">
+            <article class="intro__content flex-center">
               <h2 class="intro__heading">Welcome to Our Place</h2>
               <p class="intro__text">
                 At Our Place, we believe in the power of home-cooking to bring
@@ -154,7 +154,7 @@
         <section class="design">
           <div class="container">
             <h2 class="design__heading">Designed for Everything and Always</h2>
-            <ul class="design__colors flex">
+            <ul class="design__colors flex-center">
               <li class="design__color clr-orange"></li>
               <li class="design__color clr-blue"></li>
               <li class="design__color clr-brown"></li>
@@ -162,7 +162,7 @@
               <li class="design__color clr-red"></li>
               <li class="design__color clr-sagegreen"></li>
               <li
-                class="design__color clr-forestgreen design__color--selected"
+                class="design__color clr-forestgreen clr-orange--selected"
               ></li>
               <li class="design__color clr-liliac"></li>
             </ul>
@@ -188,7 +188,7 @@
             </p>
             <ul class="products__list">
               <li class="products__list-item">
-                <div class="products__image-wrapper flex">
+                <div class="products__image-wrapper flex-center">
                   <img
                     class="products__img"
                     src="./img/bowl.png"
@@ -207,7 +207,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-orange products__color--selected"
+                    class="products__color clr-orange clr-brown--selected"
                   ></li>
                   <li class="products__color clr-sagegreen"></li>
                   <li class="products__color clr-forestgreen"></li>
@@ -215,7 +215,7 @@
               </li>
 
               <li class="products__list-item">
-                <div class="products__image-wrapper flex">
+                <div class="products__image-wrapper flex-center">
                   <img
                     class="products__img"
                     src="./img/glass.png"
@@ -234,7 +234,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-sagegreen products__color--selected"
+                    class="products__color clr-sagegreen clr-brown--selected"
                   ></li>
                   <li class="products__color clr-brown"></li>
                   <li class="products__color clr-leafgreen"></li>
@@ -243,7 +243,7 @@
               </li>
 
               <li class="products__list-item">
-                <div class="products__image-wrapper flex">
+                <div class="products__image-wrapper flex-center">
                   <img
                     class="products__img"
                     src="./img/plate.png"
@@ -262,7 +262,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-orange products__color--selected"
+                    class="products__color clr-orange clr-brown--selected"
                   ></li>
                   <li class="products__color clr-sagegreen"></li>
                   <li class="products__color clr-forestgreen"></li>
@@ -270,10 +270,10 @@
               </li>
 
               <li class="products__list-item">
-                <div class="products__image-wrapper flex">
+                <div class="products__image-wrapper flex-center">
                   <img
                     class="products__img"
-                    src="./img/open-pan.png"
+                    src="./img/opened-pan.png"
                     alt="Pink frying pan."
                     width="253"
                     height="285"
@@ -289,7 +289,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-orange products__color--selected"
+                    class="products__color clr-orange clr-brown--selected"
                   ></li>
                   <li class="products__color clr-blue"></li>
                   <li class="products__color clr-brown"></li>
@@ -303,10 +303,145 @@
             </ul>
           </div>
         </section>
+        <!-- Follow-along -->
+        <section class="follow-along">
+          <div class="container flex-center">
+            <img
+              class="follow-along__img"
+              src="./img/dish-1.jpg"
+              alt="A pan of fried cous cous and veggies"
+              width="480"
+              height="480"
+            />
+            <div class="follow-along__content">
+              <p class="follow-along__hashtag">#dirtydishes</p>
+              <h2 class="follow-along__heading">
+                A full sink is a sign of a great night. You wash, we'll dry.
+              </h2>
+              <a class="follow-along__btn" href="#">Follow along</a>
+            </div>
+            <img
+              class="follow-along__img"
+              src="./img/pink-pan.jpg"
+              width="480"
+              height="480"
+            />
+          </div>
+        </section>
+        <!-- Company's info -->
+        <section class="info">
+          <div class="container flex-space-between">
+            <div class="info__subscribe">
+              <h2 class="info__heading">
+                Keep in touch <span class="info__emoji">&#9786;&#65039;</span>
+              </h2>
+              <p class="info__text">
+                Be the first to know about new collections, special events, and
+                what’s going on at Our Place.
+              </p>
+              <form class="subscribe">
+                <input
+                  class="subscribe__item subscribe__item--email"
+                  type="email"
+                  name="Email"
+                  placeholder="Your email"
+                />
+                <button class="subscribe__submit-btn" type="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+
+            <div class="info__links">
+              <div class="row">
+                <div class="col">
+                  <h4 class="col__heading">Shop</h4>
+                  <ul class="col__list">
+                    <li class="col__item">
+                      <a class="col__link" href="#">Main Plates</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Side Bowls</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Drinking Glasses</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Family Dinner</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Bundle</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col">
+                  <h4 class="col__heading">Company</h4>
+                  <ul class="col__list">
+                    <li class="col__item">
+                      <a class="col__link" href="#">Mission</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">FAQs</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Contact Us</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Returns</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Bulk Orders</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Careers</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col">
+                  <h4 class="col__heading">Shop</h4>
+                  <ul class="col__list">
+                    <li class="col__item">
+                      <a class="col__link" href="#">Instagram</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="location">
+                <p class="location__text">You're in</p>
+                <div class="location__flags">
+                <img
+                  class="location__flag"
+                  src="./img/icons/usa.svg"
+                  alt="The flag of the USA."
+                  widht="50"
+                  height="26"
+                />
+                <img
+                  class="location__flag"
+                  src="./img/icons/canada.svg"
+                  alt="The flag of Canada."
+                  widht="50"
+                  height="26"
+                />
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <!-- Footer -->
-      <footer></footer>
+      <footer class="footer">
+        <div class="container">
+          <p class="footer__copyright">&#169; Our Place 2021</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
