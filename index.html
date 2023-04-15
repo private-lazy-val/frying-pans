@@ -53,15 +53,6 @@
         </div>
         <div class="nav-section">
           <div class="container">
-            <a class="logo" href="#">
-              <img
-                class="logo__img"
-                src="img/logos/website-logo.svg"
-                alt="The Place logo."
-                width="131"
-                height="32"
-              />
-            </a>
             <nav class="nav">
               <ul class="nav__list nav__list--primary">
                 <li class="nav__item">
@@ -71,6 +62,15 @@
                   <a href="#" class="nav__link">Always pan</a>
                 </li>
               </ul>
+              <a class="logo" href="#">
+                <img
+                  class="logo__img"
+                  src="img/logos/website-logo.svg"
+                  alt="The Place logo."
+                  width="131"
+                  height="32"
+                />
+              </a>
               <ul class="nav__list nav__list--secondary">
                 <li class="nav__item">
                   <a href="#" class="nav__link">Mission</a>
@@ -107,35 +107,35 @@
                 class="credentials__logo"
                 src="./img/logos/bon-appetit.svg"
                 alt="Bon Appetit logo."
-                weight="136"
+                width="136"
                 height="29"
               />
               <img
                 class="credentials__logo"
                 src="./img/logos/new-york-times.svg"
                 alt="New York Times logo."
-                weight="208"
+                width="208"
                 height="29"
               />
               <img
                 class="credentials__logo"
                 src="./img/logos/vogue.svg"
                 alt="Vogue logo."
-                weight="112"
+                width="112"
                 height="29"
               />
               <img
                 class="credentials__logo"
                 src="./img/logos/oprah.svg"
                 alt="Oprah Magazine logo."
-                weight="116"
+                width="116"
                 height="29"
               />
             </div>
           </div>
         </section>
         <!-- Intro -->
-        <section class="intro">
+        <section class="intro" aria-label="Company introduction">
           <div class="container">
             <article class="intro__content flex-center">
               <h2 class="intro__heading">Welcome to Our Place</h2>
@@ -154,7 +154,7 @@
         <section class="design">
           <div class="container">
             <h2 class="design__heading">Designed for Everything and Always</h2>
-            <ul class="design__colors flex-center">
+            <ul class="design__colors">
               <li class="design__color clr-orange"></li>
               <li class="design__color clr-blue"></li>
               <li class="design__color clr-brown"></li>
@@ -162,7 +162,7 @@
               <li class="design__color clr-red"></li>
               <li class="design__color clr-sagegreen"></li>
               <li
-                class="design__color clr-forestgreen clr-orange--selected"
+                class="design__color clr-forestgreen design__color--selected"
               ></li>
               <li class="design__color clr-liliac"></li>
             </ul>
@@ -207,7 +207,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-orange clr-brown--selected"
+                    class="products__color clr-orange products__color--selected"
                   ></li>
                   <li class="products__color clr-sagegreen"></li>
                   <li class="products__color clr-forestgreen"></li>
@@ -234,7 +234,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-sagegreen clr-brown--selected"
+                    class="products__color clr-sagegreen products__color--selected"
                   ></li>
                   <li class="products__color clr-brown"></li>
                   <li class="products__color clr-leafgreen"></li>
@@ -262,7 +262,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-orange clr-brown--selected"
+                    class="products__color clr-orange products__color--selected"
                   ></li>
                   <li class="products__color clr-sagegreen"></li>
                   <li class="products__color clr-forestgreen"></li>
@@ -289,7 +289,7 @@
                 </p>
                 <ul class="products__colors">
                   <li
-                    class="products__color clr-orange clr-brown--selected"
+                    class="products__color clr-orange products__color--selected"
                   ></li>
                   <li class="products__color clr-blue"></li>
                   <li class="products__color clr-brown"></li>
@@ -306,13 +306,15 @@
         <!-- Follow-along -->
         <section class="follow-along">
           <div class="container flex-center">
-            <img
-              class="follow-along__img"
-              src="./img/dish-1.jpg"
-              alt="A pan of fried cous cous and veggies"
-              width="480"
-              height="480"
-            />
+            <div class="follow-along__img-container">
+              <img
+                class="follow-along__img"
+                src="./img/dish-1.jpg"
+                alt="A pan of fried cous cous and veggies"
+                width="480"
+                height="480"
+              />
+            </div>
             <div class="follow-along__content">
               <p class="follow-along__hashtag">#dirtydishes</p>
               <h2 class="follow-along__heading">
@@ -320,12 +322,15 @@
               </h2>
               <a class="follow-along__btn" href="#">Follow along</a>
             </div>
-            <img
-              class="follow-along__img"
-              src="./img/pink-pan.jpg"
-              width="480"
-              height="480"
-            />
+            <div class="follow-along__img-container">
+              <img
+                class="follow-along__img"
+                src="./img/pink-pan.jpg"
+                alt="Pastel pink frying pan with a lid."
+                width="480"
+                height="480"
+              />
+            </div>
           </div>
         </section>
         <!-- Company's info -->
@@ -355,7 +360,7 @@
             <div class="info__links">
               <div class="row">
                 <div class="col">
-                  <h4 class="col__heading">Shop</h4>
+                  <h3 class="col__heading">Shop</h3>
                   <ul class="col__list">
                     <li class="col__item">
                       <a class="col__link" href="#">Main Plates</a>
@@ -376,7 +381,7 @@
                 </div>
 
                 <div class="col">
-                  <h4 class="col__heading">Company</h4>
+                  <h3 class="col__heading">Company</h3>
                   <ul class="col__list">
                     <li class="col__item">
                       <a class="col__link" href="#">Mission</a>
@@ -400,7 +405,7 @@
                 </div>
 
                 <div class="col">
-                  <h4 class="col__heading">Shop</h4>
+                  <h3 class="col__heading">Shop</h3>
                   <ul class="col__list">
                     <li class="col__item">
                       <a class="col__link" href="#">Instagram</a>
@@ -415,21 +420,23 @@
               <div class="location">
                 <p class="location__text">You're in</p>
                 <div class="location__flags">
-                <img
-                  class="location__flag"
-                  src="./img/icons/usa.svg"
-                  alt="The flag of the USA."
-                  widht="50"
-                  height="26"
-                />
-                <img
-                  class="location__flag"
-                  src="./img/icons/canada.svg"
-                  alt="The flag of Canada."
-                  widht="50"
-                  height="26"
-                />
-              </div>
+                  <a class="location__link" href="#"
+                    ><img
+                      class="location__flag"
+                      src="./img/icons/usa.svg"
+                      alt="The flag of the USA."
+                      width="50"
+                      height="26"
+                  /></a>
+                  <a class="location__link" href="#"
+                    ><img
+                      class="location__flag"
+                      src="./img/icons/canada.svg"
+                      alt="The flag of Canada."
+                      width="50"
+                      height="26"
+                  /></a>
+                </div>
               </div>
             </div>
           </div>
@@ -439,7 +446,35 @@
       <!-- Footer -->
       <footer class="footer">
         <div class="container">
-          <p class="footer__copyright">&#169; Our Place 2021</p>
+          <div class="footer__container flex-space-between">
+            <p class="copyright">
+              &#169; <a class="copyright__link" href="#">Our Place</a> 2021
+            </p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Copyright 2021</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Privacy</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Terms</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Returns</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link footer__link--visually-impared" href="#"
+                  ><img
+                    class="footer__icon"
+                    src="./img/icons/visually-impairedsvg.svg"
+                    alt="Accessible for the visually impaired."
+                    width="16"
+                    height="18"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
     </div>
