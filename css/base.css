@@ -600,9 +600,6 @@ body {
 
 .follow-along__btn:focus {
   outline-color: #6C674D;
-  border-color: #6C674D;
-  -webkit-border-color:#6C674D;
-  -webkit-outline-color: 3px solid #6C674D;
 }
 
 /* Company's info */
