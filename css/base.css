@@ -1,3 +1,9 @@
+/* Normalize */
+@import url(../vendor/normalize.css);
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* || RESET */
 *,
 *::before,
@@ -154,6 +160,13 @@ body {
 }
 
 /* || HEADER */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .promo-section {
   background-color: #F0EEDD;
   padding: 9px 15px 10px;
@@ -181,6 +194,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 24px 48px 23px;
+  position: sticky;
+  top: 109px;
 }
 
 .nav::after {
