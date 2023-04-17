@@ -11,7 +11,7 @@ The design prototype for this project was created using Figma. You can view the 
 
 Frying-pans project is hosted on GitHub Pages. You can view the live sites here:
 
-- [https://private-lazy-val.github.io/mesto-project/](https://private-lazy-val.github.io/frying-pans/)
+- [https://private-lazy-val.github.io/frying-pans/](https://private-lazy-val.github.io/frying-pans/)
 
 ## Technologies
 
