@@ -4,7 +4,7 @@
 
 ### Hosting
 
-Frying-pans project is hosted on GitHub Pages. You can view the live sites here:
+Frying-pans landing web page is hosted on GitHub Pages. You can view the live site here:
 
 - [Frying-Pans](https://private-lazy-val.github.io/frying-pans/)
 
