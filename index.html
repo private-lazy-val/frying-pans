@@ -1,32 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frying Pans</title>
+    <link rel="stylesheet" href="css/base.css" />
+  </head>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
-    </div>
-    <!-- Конец -->
-
+  <body>
     <div class="main">
-        
-    </div>
+      <!-- Header start -->
+      <header class="header">
+        <div class="promo-section">
+          <div class="container">
+            <p class="promo-section__text">
+              SHIPPING AND RETURNS ARE ALWAYS FREE FROM OUR PLACE TO YOURS
+              &#128578;
+            </p>
+          </div>
+        </div>
+        <div class="nav-section">
+          <div class="container">
+            <nav class="nav">
+              <ul class="nav__list nav__list--primary">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Shop</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Always pan</a>
+                </li>
+              </ul>
+              <a class="logo" href="#">
+                <img
+                  class="logo__img"
+                  src="img/logos/website-logo.svg"
+                  alt="The Place logo."
+                  width="131"
+                  height="32"
+                />
+              </a>
+              <ul class="nav__list nav__list--secondary">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Mission</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Faqs</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
 
-</body>
+      <!-- Main content -->
+      <main>
+        <!-- Lead End -->
+        <section class="lead">
+          <div class="lead__content">
+            <p class="lead__text">Meet The Always Pan</p>
+            <h1 class="lead__heading">
+              Your new<br /><span class="lead__span">skillet</span>
+            </h1>
+            <a href="#" class="lead__btn">Shop the always pan</a>
+          </div>
+        </section>
+        <!-- Lead Start -->
+
+        <!-- Credentials Start -->
+        <section class="credentials">
+          <div class="container">
+            <h2 class="credentials__quote center">
+              "Doing the job of eight traditional cookware pieces"
+            </h2>
+            <div class="credentials__logos flex-space-between">
+              <img
+                class="credentials__logo"
+                src="./img/logos/bon-appetit.svg"
+                alt="Bon Appetit logo."
+                width="136"
+                height="29"
+              />
+              <img
+                class="credentials__logo"
+                src="./img/logos/new-york-times.svg"
+                alt="New York Times logo."
+                width="208"
+                height="29"
+              />
+              <img
+                class="credentials__logo"
+                src="./img/logos/vogue.svg"
+                alt="Vogue logo."
+                width="112"
+                height="29"
+              />
+              <img
+                class="credentials__logo"
+                src="./img/logos/oprah.svg"
+                alt="Oprah Magazine logo."
+                width="116"
+                height="29"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Credentials End -->
+
+        <!-- Intro Start -->
+        <section class="intro" aria-label="Company introduction">
+          <div class="container">
+            <article class="intro__content flex-center">
+              <h2 class="intro__heading">Welcome to Our Place</h2>
+              <p class="intro__text">
+                At Our Place, we believe in the power of home-cooking to bring
+                people together. Our collections are new heirlooms from the
+                cultures and places that make up the fabric of the modern
+                multi-ethnic kitchen. We design thoughtfully, source ethically,
+                and produce sustainably because what we make is connected to one
+                another and the earth we share.
+              </p>
+            </article>
+          </div>
+        </section>
+        <!-- Intro Start -->
+
+        <!-- Design Start -->
+        <section class="design">
+          <div class="container">
+            <h2 class="design__heading">Designed for Everything and Always</h2>
+            <ul class="design__colors">
+              <li class="design__color clr-orange"></li>
+              <li class="design__color clr-blue"></li>
+              <li class="design__color clr-brown"></li>
+              <li class="design__color clr-green"></li>
+              <li class="design__color clr-red"></li>
+              <li class="design__color clr-sagegreen"></li>
+              <li class="design__color clr-forestgreen"></li>
+              <li class="design__color clr-liliac"></li>
+            </ul>
+            <img
+              class="design__img center"
+              src="./img/deconstructed-pan.png"
+              alt="Frying pan with lid, nesting steamer basket and spatula."
+              width="1440"
+              height="554"
+            />
+          </div>
+        </section>
+        <!-- Design End -->
+
+        <!-- Products Start -->
+        <section class="products">
+          <div class="container">
+            <h2 class="products__heading center">
+              From curated essentials to limited-run editions.
+            </h2>
+            <p class="products__text">
+              We make products inspired by traditions – and we're starting with
+              one you might be familiar with: Dinner.
+            </p>
+            <ul class="products__list">
+              <li class="products__list-item">
+                <div class="products__image-wrapper flex-center">
+                  <img
+                    class="products__img"
+                    src="./img/bowl.png"
+                    alt="White bowl with pastel pink bottom."
+                    width="253"
+                    height="285"
+                  />
+                </div>
+                <h3 class="products__name">Side Bowls</h3>
+                <p class="products__quantity">
+                  SET OF 4 -<span class="products__price">$45</span>
+                </p>
+                <p class="products__description">
+                  Hand-painted porcelain stackable bowls, designed for plating,
+                  eating, and scooping.
+                </p>
+                <ul class="products__colors">
+                  <li class="products__color clr-orange"></li>
+                  <li class="products__color clr-sagegreen"></li>
+                  <li class="products__color clr-forestgreen"></li>
+                </ul>
+              </li>
+
+              <li class="products__list-item">
+                <div class="products__image-wrapper flex-center">
+                  <img
+                    class="products__img"
+                    src="./img/glass.png"
+                    alt="Amber transparent drinking glass."
+                    width="253"
+                    height="285"
+                  />
+                </div>
+                <h3 class="products__name">Drinking glasses</h3>
+                <p class="products__quantity">
+                  SET OF 4 -<span class="products__price">$50</span>
+                </p>
+                <p class="products__description">
+                  Hand-made and stackable. Made from recycled glass and natural
+                  sand. Naturally colored, without dyes.
+                </p>
+                <ul class="products__colors">
+                  <li class="products__color clr-sagegreen"></li>
+                  <li class="products__color clr-brown"></li>
+                  <li class="products__color clr-leafgreen"></li>
+                  <li class="products__color clr-white"></li>
+                </ul>
+              </li>
+
+              <li class="products__list-item">
+                <div class="products__image-wrapper flex-center">
+                  <img
+                    class="products__img"
+                    src="./img/plate.png"
+                    alt="White plate with pastel pink bottom."
+                    width="253"
+                    height="285"
+                  />
+                </div>
+                <h3 class="products__name">Main plates</h3>
+                <p class="products__quantity">
+                  SET OF 4 -<span class="products__price">$50</span>
+                </p>
+                <p class="products__description">
+                  Hand-painted porcelain plates, stackable and designed for big
+                  appetites.
+                </p>
+                <ul class="products__colors">
+                  <li class="products__color clr-orange"></li>
+                  <li class="products__color clr-sagegreen"></li>
+                  <li class="products__color clr-forestgreen"></li>
+                </ul>
+              </li>
+
+              <li class="products__list-item">
+                <div class="products__image-wrapper flex-center">
+                  <img
+                    class="products__img"
+                    src="./img/opened-pan.png"
+                    alt="Pink frying pan."
+                    width="253"
+                    height="285"
+                  />
+                </div>
+                <h3 class="products__name">Always Pan</h3>
+                <p class="products__quantity">
+                  <span class="products__price">$145</span>
+                </p>
+                <p class="products__description">
+                  Thoughtfully designed to be the perfect size and shape to do
+                  the work of eight pieces of traditional cookware.
+                </p>
+                <ul class="products__colors">
+                  <li class="products__color clr-orange"></li>
+                  <li class="products__color clr-blue"></li>
+                  <li class="products__color clr-brown"></li>
+                  <li class="products__color clr-green"></li>
+                  <li class="products__color clr-red"></li>
+                  <li class="products__color clr-sagegreen"></li>
+                  <li class="products__color clr-forestgreen"></li>
+                  <li class="products__color clr-liliac"></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Products End -->
+
+        <!-- Follow-along Start -->
+        <section class="follow-along">
+          <div class="container flex-center">
+            <div class="follow-along__img-container">
+              <img
+                class="follow-along__img"
+                src="./img/dish-1.jpg"
+                alt="A pan of fried cous cous and veggies"
+                width="480"
+                height="480"
+              />
+            </div>
+            <div class="follow-along__content">
+              <p class="follow-along__hashtag">#dirtydishes</p>
+              <h2 class="follow-along__heading">
+                A full sink is a sign of a great night. You wash, we'll dry.
+              </h2>
+              <a class="follow-along__btn" href="#">Follow along</a>
+            </div>
+            <div class="follow-along__img-container">
+              <img
+                class="follow-along__img"
+                src="./img/pink-pan.jpg"
+                alt="Pastel pink frying pan with a lid."
+                width="480"
+                height="480"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Follow-along End -->
+
+        <!-- Company's info Start -->
+        <section class="info">
+          <div class="container flex-space-between">
+            <div class="info__subscribe">
+              <h2 class="info__heading">
+                Keep in touch <span class="info__emoji">&#9786;&#65039;</span>
+              </h2>
+              <p class="info__text">
+                Be the first to know about new collections, special events, and
+                what’s going on at Our Place.
+              </p>
+              <form class="subscribe">
+                <input
+                  class="subscribe__item subscribe__item--email"
+                  type="email"
+                  name="Email"
+                  placeholder="Your email"
+                />
+                <button class="subscribe__submit-btn" type="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+
+            <div class="info__links">
+              <div class="row">
+                <div class="col">
+                  <h3 class="col__heading">Shop</h3>
+                  <ul class="col__list">
+                    <li class="col__item">
+                      <a class="col__link" href="#">Main Plates</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Side Bowls</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Drinking Glasses</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Family Dinner</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Bundle</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col">
+                  <h3 class="col__heading">Company</h3>
+                  <ul class="col__list">
+                    <li class="col__item">
+                      <a class="col__link" href="#">Mission</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">FAQs</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Contact Us</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Returns</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Bulk Orders</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Careers</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col">
+                  <h3 class="col__heading">Shop</h3>
+                  <ul class="col__list">
+                    <li class="col__item">
+                      <a class="col__link" href="#">Instagram</a>
+                    </li>
+                    <li class="col__item">
+                      <a class="col__link" href="#">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="location">
+                <p class="location__text">You're in</p>
+                <div class="location__flags">
+                  <a class="location__link" href="#"
+                    ><img
+                      class="location__flag"
+                      src="./img/icons/usa.svg"
+                      alt="The flag of the USA."
+                      width="50"
+                      height="26"
+                  /></a>
+                  <a class="location__link" href="#"
+                    ><img
+                      class="location__flag"
+                      src="./img/icons/canada.svg"
+                      alt="The flag of Canada."
+                      width="50"
+                      height="26"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Company's info End -->
+      </main>
+
+      <!-- Footer Start -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__container flex-space-between">
+            <p class="copyright">
+              &#169; <a class="copyright__link" href="#">Our Place</a> 2021
+            </p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Copyright 2021</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Privacy</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Terms</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Returns</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link footer__link--visually-impared" href="#"
+                  ><img
+                    class="footer__icon"
+                    src="./img/icons/visually-impairedsvg.svg"
+                    alt="Accessible for the visually impaired."
+                    width="16"
+                    height="18"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </div>
+  </body>
 </html>
